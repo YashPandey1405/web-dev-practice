@@ -1,0 +1,39 @@
+* {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: pink;
+}
+.box {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(97, 4, 97);
+  border: 2px dashed black;
+
+  animation: fontSize 2s ease-in 0s infinite alternate;
+}
+@keyframes fontSize {
+  0% {
+    font-size: 20px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    font-size: 30px;
+    background-color: steelblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  100% {
+    font-size: 40px;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}

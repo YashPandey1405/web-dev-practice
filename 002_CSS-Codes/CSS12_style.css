@@ -1,0 +1,54 @@
+#Container{
+    height: 300px;
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 5px solid black;
+    display: flex;
+
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    justify-content: start;
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    flex-wrap: nowrap;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+
+}
+
+#blue{
+    flex-basis: 50px;
+    /* flex-grow: 2; */
+    /* max-width: 400px;   min-width: none; */
+    /* flex-shrink: 3; */
+}
+
+h1{
+    /* height: 50px;
+    width: 1200px; */
+    color: red;
+    background-color: yellow;
+    border: 5px dashed black;
+    text-align: center;
+}
+
+#Container div{
+    height: 75px;
+    width: 75px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

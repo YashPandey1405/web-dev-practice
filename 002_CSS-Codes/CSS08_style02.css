@@ -1,0 +1,36 @@
+/* CSS Code For Practice Question-1 Of Assignment CSS Part-3..... */
+/* h2{
+    height: 50px;
+    width: 300px;
+    border: 5px solid green;
+    padding-left: 10px;
+    margin: 5px 10px 0px 20px ;
+    color: darkblue;
+    background-color: yellow;
+    border-radius: 10px;
+}
+div{
+    height: 150px;
+    width: 300px;
+    border : 5px dotted black;
+    background-color: grey;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+} */
+
+/* CSS Code For Practice Question-2 Of Assignment CSS Part-3..... */
+/* div{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+/* Very Important */
+/* Li (listitems) have their display property set to “list-item” by default which makes them a bulleted list item.
+When this property is reset by you to “inline” , then the bullet points also disappear.
+In away , we override the default settings with our CSS. */

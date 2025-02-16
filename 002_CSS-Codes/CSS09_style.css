@@ -1,0 +1,22 @@
+h1{
+    width: 500px;
+    color: rgba(255, 0, 0, 0.762);
+    background-color: rgba(0, 128, 0, 0.8);
+    border: 2px solid rgba(0, 0, 255, 0.721);
+    border-radius: 15px;
+    padding-left: 5px;
+    margin-left: 50px;
+}
+button{
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+}
+button:hover{
+    color: red;
+    background-color: lightseagreen;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transform: rotate(-45deg);
+}

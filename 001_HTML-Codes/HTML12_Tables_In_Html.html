@@ -1,0 +1,114 @@
+<!-- 
+-> Tables In HTML Are Used To Represent Real Life Table Data......
+-> They Are Combination Of Row & Column.....
+-> <tr> Tag -> Used To Display The Row Of The Table......
+-> <td> Tag -> Used To Display The Data Of The Table......
+-> <th> Tag -> Used To Display The Data Of Header Of The Table......
+-> Colspan & Rowspan Are Used To Create Cells Which spans over multiple rows & col......
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tables In HTML</title>
+    </head>
+    <body>
+        <table border="black">
+            <caption>My First Table</caption>       <!-- Title/Caption Of The Table -->
+            <!-- To Fill The Header Of Table In One Block -->
+            <thead>
+                <tr>
+                    <th rowspan="2">Name</th>
+                    <th rowspan="2">Relation</th>
+                    <th colspan="3">Age</th>
+                </tr>
+                <tr>
+                    <th>Years</th>
+                    <th>Months</th>
+                    <th>Days</th>
+                </tr>
+            </thead>    
+            <!-- To Fill The Body Of Table In One Block -->
+            <tbody>
+                <tr>
+                    <!-- Age Till 18 Nov 2023 -->
+                    <td>Prabhash Pandey</td>
+                    <td>Father</td>
+                    <td>49</td>
+                    <td>8</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <!-- Age Till 18 Nov 2023 -->
+                    <td>Annu Pandey</td>
+                    <td>Mother</td>
+                    <td>43</td>
+                    <td>0</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <!-- Age Till 18 Nov 2023 -->
+                    <td>Yash Pandey</td>
+                    <td>Myself</td>
+                    <td>20</td>
+                    <td>3</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <!-- Age Till 18 Nov 2023 -->
+                    <td>Isha Pandey</td>
+                    <td>Sister</td>
+                    <td>18</td>
+                    <td>5</td>
+                    <td>18</td>
+                </tr>
+            </tbody>        
+        </table>
+        <footer>Note ::: Age Till 18th Nov 2023</footer>
+        <footer>Made With &hearts; By Yash Pandey</footer>
+    </body>
+</html>
+
+
+<!-- 
+// Solution Of Practice Question-07.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice Question 7</title>
+    </head>
+    <body>
+        <table border="black">
+            <caption>A Test Table With Merged Cells</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red Eyes</th>
+                </tr>
+                <tr>
+                    <th>Height</th>
+                    <th>weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Males</td>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Females</td>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+ -->

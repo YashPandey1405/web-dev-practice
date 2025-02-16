@@ -1,0 +1,41 @@
+<!-- 
+-> The HTML action attribute specifies where form data should be sent when a form is submitted.It can be used in the <form> element.
+-> The value of the action attribute should be the URL of the web resource that will process the contents of the form.
+-> The <input> HTML element is used to create interactive controls for web-based forms in order to accept data from the user; 
+-> a wide variety of types of input data and control widgets are available, depending on the device and user agent. 
+-> The <input> element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="https://github.com/YashPandey1405">
+            <div>
+                <!-- for Of Label & id Of input Must Be Same...... -->
+                <label for="username">Username : </label>
+                <input type="text" placeholder="Enter Your Name" id="username">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" placeholder="Enter password" id="password">
+            </div>
+            <br>
+            <div>
+                <label for="age">Age : </label>
+                <input type="number" placeholder="Enter Your Age" id="age">
+            </div>
+            <br>
+            <div>
+                <label for="time">Password : </label>
+                <input type="time" placeholder="Enter Time" id="time">
+            </div>
+            <button>Submit</button>
+            <!-- <p><input type="color"></p> -->
+        </form>
+    </body>
+</html>

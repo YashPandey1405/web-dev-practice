@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- BootStrap CDN Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <!-- NavBar Code -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-body py-3"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Alert Usage With BootStrap -->
+    <div class="alert alert-dark alert-dismissible fade show mt-3" role="alert">
+      <strong>Keep pushing forward!</strong> Success in every aspect is the
+      goal—whether it's tech skills, workouts, or consistency. Stay strong and
+      keep grinding! 🚀
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <!-- <div class="container">Yash Pandey Is GOAT !</div> -->
+    <div class="container mt-3 mb-4">
+      <h1>Basic Form Layout Using BootStrap For Yash!</h1>
+
+      <div class="row">
+        <!-- First Name -->
+        <div class="col mb-3">
+          <label for="exampleInputEmail1" class="form-label">First Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <!-- <div id="emailHelp" class="form-text">Your First Name</div> -->
+        </div>
+
+        <!-- Middle Name -->
+        <div class="col mb-3">
+          <label for="exampleInputEmail1" class="form-label">Middle Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <!-- <div id="emailHelp" class="form-text">Your Middle Name</div> -->
+        </div>
+
+        <!-- Last Name -->
+        <div class="col mb-3">
+          <label for="exampleInputEmail1" class="form-label">Last Name</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <!-- <div id="emailHelp" class="form-text">Your Last Name</div> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- For Email -->
+        <div class="col mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <!-- For Password -->
+        <div class="col mb-3">
+          <label for="inputPassword5" class="form-label">Password</label>
+          <input
+            type="password"
+            id="inputPassword5"
+            class="form-control"
+            aria-describedby="passwordHelpBlock"
+          />
+          <div id="passwordHelpBlock" class="form-text">
+            Your password must be 8-20 characters long
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- City Name -->
+        <div class="col mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >City Name</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <!-- Country Name -->
+        <div class="col mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Country</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <!-- Select Button -->
+        <div class="col mb-3">
+          <!-- For Select Button -->
+          <label for="inputPassword5" class="form-label">Select The Role</label>
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            id="inputPassword5"
+          >
+            <option selected>New Joinee</option>
+            <option value="1">Intern</option>
+            <option value="2">SDE</option>
+            <option value="3">HR</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <!-- For Address Field -->
+        <div class="col-10">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+          />
+        </div>
+
+        <!-- For Pin Code Input -->
+        <div class="col-2">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Pin-Code</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleFormControlInput1"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- For Description -->
+        <div class="col mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Description</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- Simple Selected Radio Button -->
+      <div class="mb-3">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Remember me For Next Time....
+          </label>
+        </div>
+      </div>
+      <button class="btn btn-danger mt-3">Submit</button>
+    </div>
+
+    <!-- Footer Code  -->
+
+    <!-- 
+        Ensuring the Footer Stays at the Bottom:
+        To keep the footer at the bottom even when the page content is short, follow these steps:
+
+        1. Wrap all content between the Navbar and Footer inside a <div class="container"></div>.
+        2. Add the following CSS styles to maintain proper alignment:
+            html, body {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            .container {
+                flex: 1;
+            }
+        This approach ensures that the footer remains at the bottom when there isn't enough content to fill the entire page height.
+    -->
+
+    <footer class="footer text-center bg-dark text-white py-3">
+      <div class="container">
+        <div
+          class="mb-3 d-flex justify-content-center align-items-center gap-3"
+        >
+          <a
+            href="https://github.com/YashPandey1405/"
+            class="text-white"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-xl"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yashpandey29/"
+            class="text-white"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-xl"></i>
+          </a>
+        </div>
+        <p class="mb-1">&copy; ChirpNest Private Limited</p>
+        <div>
+          <a href="#" class="me-3 text-white">Privacy</a>
+          <a href="#" class="text-white">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BootStrap CDN Script For JS Working like Alert Actions -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

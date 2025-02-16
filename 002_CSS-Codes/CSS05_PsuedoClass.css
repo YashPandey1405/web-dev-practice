@@ -1,0 +1,32 @@
+/* ..............PSUEDO CLASSES IN CSS......... */
+
+/* the pseudo-class ':hover' can be used to select a button when a user's pointer hovers over the button and this selected button can then be style */
+/* For Example -> button:hover{ color: red; background-color: yellow; } */
+/* This Will Make Color=Red & Background=Yellow When We Will Hover On The Button  */
+
+/* the pseudo-class ':active' Matches when an item is being activated by the user */
+/* For Example -> p :active{ color: red; font-weight: bold; } */
+/* This Will Make Color=Red & size of font=bold When We Will click On The Paragraph  */
+
+/* the pseudo-class ':checked' Matches when elements such as checkboxes and radio buttons are toggled on*/
+/* For Example -> button :checked{ color: blue; background-color: yellow; } */
+/* This Will Make Color=Blue & Background=Yellow When We Will Tick The Button  */
+
+/* the pseudo-class ':nth-of-type()' matches elements based on their position among siblings of the same type (tag name).*/
+/* For Example -> div :nth-of-type(2n+1){ background-color: limegreen; } */
+/* Above Command Will Make bc=lime For Every (2n+1) <div> context , where , n=0,1,2,3,4.......*/
+
+
+/* ..............PSUEDO ELEMENTS IN CSS......... */
+
+/* Psuedo Element '::first-letter' */
+/* For Example -> ::first-letter{ background-color: red; } */
+/* This Will Make First Letter Of Each Paragraph Background Color = Red */
+
+/* Psuedo Element '::first-line' */
+/* For Example -> ::first-line{ background-color: red; } */
+/* This Will Make First Line Of Each Paragraph Background Color = Red */
+
+/* Psuedo Element '::selection' */
+/* For Example -> p ::selection{ background-color: yellow; } */
+/* This Will Make Line Of Each Paragraph Background Color : Red When We Will Select That Line...... */

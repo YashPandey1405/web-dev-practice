@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Form To Search Someting On YouTube..... -->
+        <form action="https://www.youtube.com/results">
+            <label for="Search">Search :  </label>
+            <input type="text" placeholder="Search On YouTube" id="Search" name="search_query">
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <hr>
+        </form>
+        <!-- Form To Search Someting On Google..... -->
+        <form action="https://www.google.com/search">
+            <label for="Search">Search :  </label>
+            <input type="text" placeholder="Search On Google" id="Search" name="q">
+            <br>
+            <input type="checkbox" id="Year" name="Year" value="1st_Year">
+            <label for="Year">1st Year Of B.Tech</label>
+            <br>
+            <input type="checkbox" id="Year" name="Year" value="2nd_Year">
+            <label for="Year">2nd Year Of B.Tech</label>
+            <br>
+            <input type="checkbox" id="Year" name="Year" value="3rt_Year">
+            <label for="Year">3rd Year Of B.Tech</label>
+            <br>
+            <input type="checkbox" id="Year" name="Year" value="4th_Year">
+            <label for="Year">4th Year Of B.Tech</label>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <hr>
+        </form>
+        <div>
+            <form action="https://www.youtube.com/results">
+                <h3>What Is Your Favourite Fruit</h3>
+                <!-- Grouping Of Below 3 Checkbox Due To Same name As 'search_query' -->
+                <input type="radio" id="Apple" name="search_query" value="Apple">
+                <label for="Apple">Apple</label>
+                <input type="radio" id="Mango" name="search_query" value="Mango">
+                <label for="Mango">Mango</label>
+                <input type="radio" id="Orange" name="search_query" value="Orange">
+                <label for="Orange">Orange</label>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <hr>
+            </form>
+        </div>
+        <div>
+            <h3>Select Your Skill</h3>
+            <form action="https://www.YashPandey.com/">
+                <select name="Profession" value="Profession">
+                    <option>Select Your Option</option>
+                    <option value="Stud">Student</option>
+                    <option value="Engg">Engineer</option>
+                    <option value="Dev">Developer</option>
+                </select>
+                <br><br>
+                <label for="Vol">Select Your Volume : </label>
+                <input type="range" id="Vol" min="0" max="100" step="10" name="Volume" value="70">
+                <br><br>
+                <label for="feedback">Please Give Your Valueable Feedback : </label>
+                <textarea id="feedback" name="FDBK" rows="15" cols="100"></textarea>                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <hr>
+    </body>
+</html>

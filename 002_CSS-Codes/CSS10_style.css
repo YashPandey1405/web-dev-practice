@@ -1,0 +1,38 @@
+.outer {
+    background-color: gold;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#second {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 75px;
+}
+
+#third {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 275px;
+}
+
+#fourth{
+    height: 75px;
+    width: 200px;
+    background-color: maroon;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}

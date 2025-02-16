@@ -1,0 +1,62 @@
+/* 
+1. Text Aligners
+
+-> The text-align property sets the horizontal alignment of text in a block element or table-cell box.
+-> SYNTAX :::text-align: property;
+-> eg :- text-align: start;
+        text-align: end;
+        text-align: center;
+        text-align: justify;
+
+2. Font Weight
+
+-> The font-weight property can be used to make text bolder or lighter.
+-> The Range Of Font Weight Is 100(Thin Font) To 900(Bold Font).....
+-> Common Font Size ::: Thin: 100 , Normal: 400 , Bold: 700 , Heavy: 900.......
+-> SYNTAX :::font-weight: property;
+-> eg :- font-weight: normal; == font-weight: 400;
+
+3. Text Decoration
+
+-> the text-decoration shorthand property controls the appearance of decorative lines on text.
+-> SYNTAX ::: text-decoration: property;
+-> eg :- text-decoration: AnyColor underline;
+         text-decoration: AnyColor overline;
+         text-decoration: AnyColor line-through;
+
+4. Line Height
+
+-> It Is Used To Mantain The Gap B/w The 2 Lines
+-> Syntax ::: line-height: normal;
+-> line-height: 2; == line-height: 2*normal;
+
+5. Letter Spacing
+
+-> It Is Used To Mantain The Gap B/w The 2 Alphabets In The Words.
+-> SYNTAX ::: letter-spacing: normal;
+-> letter-spacing: 10px; // Where , 1 Inch=96 Pixels.......
+
+6. Font Size
+
+-> It Is Used To Mantain The Font Size Of The Text.
+-> SYNTAX ::: font-size: medium;
+-> Example ::: font-size: 15px;
+
+7. Font Family
+
+-> the font-family property to specify the font of a text.
+-> SYNTAX ::: font-family: "Times New Roman";
+-> Example ::: font-family: Arial;
+*/
+
+h1{
+    color: #ffa511;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: teal double underline;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-family: League spartan;
+    text-transform: uppercase;
+}

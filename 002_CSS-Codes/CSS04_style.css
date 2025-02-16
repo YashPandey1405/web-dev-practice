@@ -1,0 +1,36 @@
+/* Universal Selector */
+/*  *{  color: red; background-color: black;  } --> To Select All Tags*/
+
+/* Element Selector */
+/* h1{  color: red;  } --> To Select Particular Tags*/
+
+/* ID Selector */
+/* #login{  color: red;  } --> To Select All Tags With mentioned ID*/
+
+/* Class Selector */
+/* .follow{  color: red;  } --> To Select All Tags With mentioned Class*/
+
+/* Desendant Selector */
+/* div h2{  color: red;  } --> To Make All h2 Tags Red Inside <div> Tag*/
+/* .post h2{  color: red;  } --> To Make All h2 Tags Red Inside class post*/
+
+/* Adjacent Sibling Combinater */
+/* p+h2{  color: red;  } --> To Make All h2 Tags Red Which Come Immediately After Paragraph Tag*/
+/* This Doesn't Mean That <p> has child <h2> , <p> & <h2> must be on same level */
+/* .Yash+button{  color: red;  } --> To Make All button Red Which Come Immediately After class Yash*/
+
+/* Child Combinater */
+/* span>button{ color:red; } -> Make All Button Red Which are Direct Children Of <span> Tag */
+
+/* Psuedo Class */
+/* p:hover{ color: red; } --> Make Paragraph red When We Move Cursor On That Button*/
+/* button:active{ color: red; } --> Make button red When We click it.... */
+/* button:checked+label{ color: red; } --> Make Labeb red When We click the Button.... */
+ 
+
+/* Below Code Of CSS Is For Practice Question..... */
+/* 
+*{ font-family: Courier New; }
+h1{ color: #1b74e4; }
+#searchbtn{ color: white ; background-color: black; }
+.userbtn{ background-color: aqua; } */
